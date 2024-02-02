@@ -47,10 +47,10 @@ export class BladesActorSheet extends BladesSheet {
     sheetData.system.loadout = loadout;
 
     // Encumbrance Levels
-    let load_level=["BITD.Light","BITD.Light","BITD.Light","BITD.Light","BITD.Normal","BITD.Normal","BITD.Heavy","BITD.Encumbered",
-			"BITD.Encumbered","BITD.Encumbered","BITD.OverMax"];
-    let mule_level=["BITD.Light","BITD.Light","BITD.Light","BITD.Light","BITD.Light","BITD.Light","BITD.Normal","BITD.Normal",
-			"BITD.Heavy","BITD.Encumbered","BITD.OverMax"];
+    let load_level=["SOD.Light","SOD.Light","SOD.Light","SOD.Light","SOD.Normal","SOD.Normal","SOD.Heavy","SOD.Encumbered",
+			"SOD.Encumbered","SOD.Encumbered","SOD.OverMax"];
+    let mule_level=["SOD.Light","SOD.Light","SOD.Light","SOD.Light","SOD.Light","SOD.Light","SOD.Normal","SOD.Normal",
+			"SOD.Heavy","SOD.Encumbered","SOD.OverMax"];
     let mule_present=0;
 
 
@@ -69,7 +69,7 @@ export class BladesActorSheet extends BladesSheet {
       sheetData.system.load_level=load_level[loadout];
     }
 
-    sheetData.system.load_levels = {"BITD.Light":"BITD.Light", "BITD.Normal":"BITD.Normal", "BITD.Heavy":"BITD.Heavy"};
+    sheetData.system.load_levels = {"SOD.Light":"SOD.Light", "SOD.Normal":"SOD.Normal", "SOD.Heavy":"SOD.Heavy"};
 
     sheetData.system.description = await TextEditor.enrichHTML(sheetData.system.description, {secrets: sheetData.owner, async: true});
 
