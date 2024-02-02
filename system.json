@@ -2,7 +2,7 @@
   "id": "sea-of-dead-men",
   "title": "Sea of Dead Men",
   "description": "Sea of Dead Men game system.",
-  "version": "0.0.1",
+  "version": "4.8",
   "compatibility": {
     "minimum": 10,
     "verified": "10.284"
