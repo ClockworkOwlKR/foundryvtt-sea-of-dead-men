@@ -2,21 +2,21 @@
   {{#if attribute_label}}<div class="chat-label label-stripe-chat">{{localize attribute_label}}</div>{{/if}}
 
   {{#if (eq roll_status "failure")}}
-  <div class="die {{roll_status}}">{{localize "SOD.RollFailure"}}</div>
+  <div class="die {{roll_status}}">{{localize "BITD.RollFailure"}}</div>
   <div class="description">
-    <p>{{{localize "SOD.RollViceFailure" clear_stress=clear_stress}}}
+    <p>{{{localize "BITD.RollViceFailure" clear_stress=clear_stress}}}
     <ul>
-      <li>{{{localize "SOD.RollViceFailureAttactTrouble"}}}</li>
-      <li>{{{localize "SOD.RollViceFailureBrag"}}}</li>
-      <li>{{{localize "SOD.RollViceFailureLost"}}}</li>
-      <li>{{{localize "SOD.RollViceFailureTapped"}}}</li>
+      <li>{{{localize "BITD.RollViceFailureAttactTrouble"}}}</li>
+      <li>{{{localize "BITD.RollViceFailureBrag"}}}</li>
+      <li>{{{localize "BITD.RollViceFailureLost"}}}</li>
+      <li>{{{localize "BITD.RollViceFailureTapped"}}}</li>
     </ul>
     </p>
   </div>
   {{else}}
-  <div class="die success">{{localize "SOD.RollSuccess"}}</div>
+  <div class="die success">{{localize "BITD.RollSuccess"}}</div>
   <div class="description">
-    <p>{{{localize "SOD.RollVice" clear_stress=clear_stress}}}</p>
+    <p>{{{localize "BITD.RollVice" clear_stress=clear_stress}}}</p>
   </div>
   {{/if}}
   {{#if note}}
