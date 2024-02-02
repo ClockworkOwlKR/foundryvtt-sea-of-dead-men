@@ -1,4 +1,6 @@
-# FoundryVTT Blades in the Dark character and crew sheets
+# FoundryVTT Sea of Dead Men and crew sheets
+
+Temporary edits, work in progress
 
 <p align="center">
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/megastruktur/foundryvtt-blades-in-the-dark"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/megastruktur/foundryvtt-blades-in-the-dark"> <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/megastruktur/foundryvtt-blades-in-the-dark/total" /> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/megastruktur/foundryvtt-blades-in-the-dark?label=latest%20release" /> 
