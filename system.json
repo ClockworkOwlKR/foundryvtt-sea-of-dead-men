@@ -10,8 +10,8 @@
   "name": "sea-of-dead-men",
   "minimumCoreVersion": "10",
   "url": "https://github.com/ClockworkOwlKR/foundryvtt-sea-of-dead-men/",
-  "manifest": "https://raw.githubusercontent.com/ClockworkOwlKR/foundryvtt-sea-of-dead-men/master/system.json",
-  "download": "https://github.com/ClockworkOwlKR/foundryvtt-sea-of-dead-men/releases/download/0.0.1/foundryvtt-sea-of-dead-men-temp.zip",
+  "manifest": "https://raw.githubusercontent.com/clockworkowlkr/foundryvtt-sea-of-dead-men/master/system.json",
+  "download": "https://github.com/ClockworkOwlKR/foundryvtt-sea-of-dead-men/releases/download/0.0.1/fitd-sea-of-dead-men.zip",
   "authors": [
     { "name": "ClockworkOwl" }
   ],
