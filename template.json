@@ -11,27 +11,27 @@
     "vice-purveyor": "",
     "playbook": "",
     "acquaintances": [],
-    "acquaintances_label": "BITD.Acquaintances",
+    "acquaintances_label": "SOD.Acquaintances",
     "stress": {
       "value": [0],
       "max": 9,
       "max_default": 9,
-      "name_default": "BITD.Stress",
-      "name": "BITD.Stress"
+      "name_default": "SOD.Stress",
+      "name": "SOD.Stress"
     },
     "trauma": {
       "max": 4,
       "max_default": 4,
       "value": [0],
-      "name": "BITD.Trauma",
-      "name_default": "BITD.Trauma",
+      "name": "SOD.Trauma",
+      "name_default": "SOD.Trauma",
       "options": ["cold", "haunted", "obsessed", "paranoid", "reckless", "soft", "unstable", "vicious"],
       "list": []
     },
     "healing-clock": [0],
     "experience": [0],
     "experience_max": 8,
-    "experience_clues": ["BITD.ClassExpClue3", "BITD.ClassExpClue2"],
+    "experience_clues": ["SOD.ClassExpClue3", "SOD.ClassExpClue2"],
     "coins": [0],
     "coins_stashed": [0],
     "special_abilities": [],
@@ -64,25 +64,25 @@
         "insight": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsInsight",
+          "label": "SOD.SkillsInsight",
           "skills": {
-            "hunt": {
-              "label": "BITD.SkillsHunt",
+            "finesse": {
+              "label": "SOD.SkillsFinesse",
               "value": 0,
               "max": 4
             },
-            "study": {
-              "label": "BITD.SkillsStudy",
+            "navigate": {
+              "label": "SOD.SkillsNavigate",
               "value": 0,
               "max": 4
             },
-            "survey": {
-              "label": "BITD.SkillsSurvey",
+            "patch": {
+              "label": "SOD.SkillsPatch",
               "value": 0,
               "max": 4
             },
-            "tinker": {
-              "label": "BITD.SkillsTinker",
+            "scan": {
+              "label": "SOD.SkillsScan",
               "value": 0,
               "max": 4
             }
@@ -91,25 +91,25 @@
         "prowess": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsProwess",
+          "label": "SOD.SkillsProwess",
           "skills": {
-            "finesse": {
-              "label": "BITD.SkillsFinesse",
+            "blast": {
+              "label": "SOD.SkillsBlast",
               "value": 0,
               "max": 4
             },
-            "prowl": {
-              "label": "BITD.SkillsProwl",
+            "brawl": {
+              "label": "SOD.SkillsBrawl",
               "value": 0,
               "max": 4
             },
-            "skirmish": {
-              "label": "BITD.SkillsSkirmish",
+            "sculk": {
+              "label": "SOD.SkillsSculk",
               "value": 0,
               "max": 4
             },
-            "wreck": {
-              "label": "BITD.SkillsWreck",
+            "vault": {
+              "label": "SOD.SkillsVault",
               "value": 0,
               "max": 4
             }
@@ -118,25 +118,25 @@
         "resolve": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsResolve",
+          "label": "SOD.SkillsResolve",
           "skills": {
             "attune": {
-              "label": "BITD.SkillsAttune",
+              "label": "SOD.SkillsAttune",
               "value": 0,
               "max": 4
             },
             "command": {
-              "label": "BITD.SkillsCommand",
+              "label": "SOD.SkillsCommand",
               "value": 0,
               "max": 4
             },
             "consort": {
-              "label": "BITD.SkillsConsort",
+              "label": "SOD.SkillsConsort",
               "value": 0,
               "max": 4
             },
             "sway": {
-              "label": "BITD.SkillsSway",
+              "label": "SOD.SkillsSway",
               "value": 0,
               "max": 4
             }
@@ -255,15 +255,15 @@
         "value": [1],
         "max": 2,
         "max_default": 2,
-        "name_default": "BITD.Hold",
-        "name": "BITD.Hold"
+        "name_default": "SOD.Hold",
+        "name": "SOD.Hold"
       },
       "status": {
         "value": [4],
         "max": 7,
         "max_default": 7,
-        "name_default": "BITD.Status",
-        "name": "BITD.Status"
+        "name_default": "SOD.Status",
+        "name": "SOD.Status"
       }
     },
     "item": {
@@ -311,35 +311,31 @@
     "scale": 0,
     "quality": 0,
     "cohort_list": {
-      "Gang": {
-        "label": "BITD.Gang"
+      "Ship": {
+        "label": "SOD.Ship"
       },
-      "Expert": {
-        "label": "BITD.Expert"
+      "Agent": {
+        "label": "SOD.Agent"
       }
     },
     "gang_type": ["Adepts"],
     "gang_type_list": {
 
       "Adepts": {
-        "label": "BITD.GangTypeAdepts",
-        "description": "BITD.GangTypeAdeptsDescription"
+        "label": "SOD.GangTypeAdepts",
+        "description": "SOD.GangTypeAdeptsDescription"
       },
-      "Rooks": {
-        "label": "BITD.GangTypeRooks",
-        "description": "BITD.GangTypeRooksDescription"
+      "Killers": {
+        "label": "SOD.GangTypeKillers",
+        "description": "SOD.GangTypeKillersDescription"
+      },
+      "Knaves": {
+        "label": "SOD.GangTypeKnaves",
+        "description": "SOD.GangTypeKnavesDescription"
       },
       "Rovers": {
-        "label": "BITD.GangTypeRovers",
-        "description": "BITD.GangTypeRoversDescription"
-      },
-      "Skulks": {
-        "label": "BITD.GangTypeSkulks",
-        "description": "BITD.GangTypeSkulksDescription"
-      },
-      "Thugs": {
-        "label": "BITD.GangTypeThugs",
-        "description": "BITD.GangTypeThugsDescription"
+        "label": "SOD.GangTypeRovers",
+        "description": "SOD.GangTypeRoversDescription"
       }
     },
     "expert_type": "",
@@ -348,74 +344,74 @@
     "edges": [],
     "edges_list": {
       "Fearsome": {
-        "label": "BITD.EdgesFearsome",
-        "description": "BITD.EdgesFearsomeDescription",
+        "label": "SOD.EdgesFearsome",
+        "description": "SOD.EdgesFearsomeDescription",
         "selected": false
       },
       "Independent": {
-        "label": "BITD.EdgesIndependent",
-        "description": "BITD.EdgesIndependentDescription",
+        "label": "SOD.EdgesIndependent",
+        "description": "SOD.EdgesIndependentDescription",
         "selected": false
       },
       "Loyal": {
-        "label": "BITD.EdgesLoyal",
-        "description": "BITD.EdgesLoyalDescription",
+        "label": "SOD.EdgesLoyal",
+        "description": "SOD.EdgesLoyalDescription",
         "selected": false
       },
       "Tenacious": {
-        "label": "BITD.EdgesTenacious",
-        "description": "BITD.EdgesTenaciousDescription",
+        "label": "SOD.EdgesTenacious",
+        "description": "SOD.EdgesTenaciousDescription",
         "selected": false
       }
     },
     "flaws": [],
     "flaws_list": {
-      "Principled": {
-        "label": "BITD.FlawsPrincipled",
-        "description": "BITD.FlawsPrincipledDescription",
+      "Bloodthirsty": {
+        "label": "SOD.FlawsBloodthirsty",
+        "description": "SOD.FlawsBloodthirstyDescription",
         "selected": false
       },
-      "Savage": {
-        "label": "BITD.FlawsSavage",
-        "description": "BITD.FlawsSavageDescription",
+      "Gutless": {
+        "label": "SOD.FlawsGutless",
+        "description": "SOD.FlawsGutlessDescription",
         "selected": false
       },
       "Unreliable": {
-        "label": "BITD.FlawsUnreliable",
-        "description": "BITD.FlawsUnreliableDescription",
+        "label": "SOD.FlawsUnreliable",
+        "description": "SOD.FlawsUnreliableDescription",
         "selected": false
       },
       "Wild": {
-        "label": "BITD.FlawsWild",
-        "description": "BITD.FlawsWildDescription",
+        "label": "SOD.FlawsWild",
+        "description": "SOD.FlawsWildDescription",
         "selected": false
       }
     },
     "harm": ["No"],
     "harm_list": {
       "No": {
-        "label": "BITD.HarmNoHarm",
-        "description": "BITD.HarmNoHarmDescription",
+        "label": "SOD.HarmNoHarm",
+        "description": "SOD.HarmNoHarmDescription",
         "value": 0
       },
       "Weakened": {
-        "label": "BITD.HarmWeakened",
-        "description": "BITD.HarmWeakenedDescription",
+        "label": "SOD.HarmWeakened",
+        "description": "SOD.HarmWeakenedDescription",
         "value": 1
       },
       "Impaired": {
-        "label": "BITD.HarmImpaired",
-        "description": "BITD.HarmImpairedDescription",
+        "label": "SOD.HarmImpaired",
+        "description": "SOD.HarmImpairedDescription",
         "value": 2
       },
       "Broken": {
-        "label": "BITD.HarmBroken",
-        "description": "BITD.HarmBrokenDescription",
+        "label": "SOD.HarmBroken",
+        "description": "SOD.HarmBrokenDescription",
         "value": 3
       },
       "Dead": {
-        "label": "BITD.HarmDead",
-        "description": "BITD.HarmDeadDescription",
+        "label": "SOD.HarmDead",
+        "description": "SOD.HarmDeadDescription",
         "value": 4
       }
     },
@@ -478,7 +474,7 @@
         "connects": []
       },
       "8": {
-        "name": "BITD.Lair",
+        "name": "SOD.Lair",
         "value": 1,
         "description": "",
         "connects": []
